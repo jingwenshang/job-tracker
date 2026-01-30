@@ -105,12 +105,32 @@ A full-stack job application tracker to help users manage, analyze, and organize
 ### Frontend (Vite)
 
 ```
-frontend/
-├── src/
-│   ├── components/          # Sidebar, Layout
-│   ├── pages/               # Dashboard, Analytics, Notes, etc.
-│   ├── api.js               # Axios config
-│   ├── App.jsx              # Routing logic
+📁 frontend
+├── 📁 node_modules
+├── 📁 public
+├── 📁 src
+│   ├── 📁 assets
+│   ├── 📁 components
+│   │   ├── 📄 MainLayout.jsx
+│   │   └── 📄 Sidebar.jsx
+│   ├── 📁 pages
+│   │   ├── 📄 AiAssistantPage.jsx
+│   │   ├── 📄 AnalyticsPage.jsx
+│   │   ├── 📄 Dashboard.jsx
+│   │   ├── 📄 InterviewNotesPage.jsx
+│   │   ├── 📄 JobApplicationPage.jsx
+│   │   ├── 📄 JobBoard.jsx
+│   │   ├── 📄 JobDetailModal.jsx
+│   │   ├── 📄 JobDetailModal.css
+│   │   ├── 📄 JobList.jsx
+│   │   ├── 📄 JobNotesPage.jsx
+│   │   ├── 📄 LoginPage.jsx
+│   │   ├── 📄 Profile.jsx
+│   │   └── 📄 RegisterPage.jsx
+│   ├── 📄 api.js
+│   ├── 📄 App.jsx
+│   └── 📄 index.css
+
 ```
 
 ### Backend (Spring Boot)
