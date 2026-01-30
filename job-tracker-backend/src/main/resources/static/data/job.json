@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Software Engineer",
+    "company": "OpenAI",
+    "location": "San Francisco, CA",
+    "description": "Build safe and beneficial AGI",
+    "url": "https://openai.com/careers/software-engineer"
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "Aritzia",
+    "location": "Vancouver, BC",
+    "description": "Build web interfaces with React",
+    "url": "https://aritzia.com/jobs/frontend"
+  }
+]
