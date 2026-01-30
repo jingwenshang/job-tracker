@@ -136,14 +136,59 @@ A full-stack job application tracker to help users manage, analyze, and organize
 ### Backend (Spring Boot)
 
 ```
-job-tracker-backend/
-├── src/main/java/
-│   └── com.example.jobtracker/
-│       ├── controller/      # API Controllers (Auth, Job, AI, Notes, etc.)
-│       ├── entity/          # JPA entities
-│       ├── service/         # Business logic
-│       ├── util/            # Helper classes (HuggingFaceClient, JWT, etc.)
-│       ├── config/          # Security, CORS, Web config
+📁 job-tracker-backend
+├── 📁 .mvn
+├── 📁 src
+│   └── 📁 main
+│       ├── 📁 java
+│       │   └── 📁 com.example.jobtracker
+│       │       ├── 📁 advice
+│       │       │   └── 📄 GlobalExceptionHandler.java
+│       │       ├── 📁 config
+│       │       │   ├── 📄 CorsConfig.java
+│       │       │   ├── 📄 FilterConfig.java
+│       │       │   ├── 📄 JobDataLoader.java
+│       │       │   ├── 📄 SecurityConfig.java
+│       │       │   └── 📄 WebConfig.java
+│       │       ├── 📁 controller
+│       │       │   ├── 📄 AIController.java
+│       │       │   ├── 📄 AuthController.java
+│       │       │   ├── 📄 JobController.java
+│       │       │   ├── 📄 JobReminderController.java
+│       │       │   ├── 📄 TaskController.java
+│       │       │   └── 📄 UserController.java
+│       │       ├── 📁 dto
+│       │       │   ├── 📄 AISummaryResponse.java
+│       │       │   └── 📄 JobReminderResponse.java
+│       │       ├── 📁 entity
+│       │       │   ├── 📄 Job.java
+│       │       │   ├── 📄 JobStatus.java
+│       │       │   ├── 📄 Task.java
+│       │       │   └── 📄 User.java
+│       │       ├── 📁 filter
+│       │       │   └── 📄 JwtFilter.java
+│       │       ├── 📁 repository
+│       │       │   ├── 📄 JobRepository.java
+│       │       │   ├── 📄 TaskRepository.java
+│       │       │   └── 📄 UserRepository.java
+│       │       ├── 📁 service
+│       │       │   ├── 📄 AIService.java
+│       │       │   ├── 📄 AIServiceImpl.java
+│       │       │   ├── 📄 AuthService.java
+│       │       │   ├── 📄 AuthServiceImpl.java
+│       │       │   ├── 📄 JobService.java
+│       │       │   ├── 📄 JobServiceImpl.java
+│       │       │   ├── 📄 TaskService.java
+│       │       │   └── 📄 TaskServiceImpl.java
+│       │       ├── 📁 util
+│       │       │   ├── 📄 HuggingFaceClient.java
+│       │       │   ├── 📄 JobReminderScheduler.java
+│       │       │   ├── 📄 JwtUtil.java
+│       │       │   └── 📄 UserContext.java
+│       │       └── 📄 JobTrackerAppApplication.java
+│       └── 📁 resources
+
+
 ```
 
 ---
