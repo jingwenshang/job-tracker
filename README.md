@@ -4,6 +4,31 @@ A full-stack job application tracker to help users manage, analyze, and organize
 
 ---
 
+## 📷 Screenshoot
+
+<img width="2560" height="1223" alt="image" src="https://github.com/user-attachments/assets/93dacbdb-af6c-4a08-9cdb-361d598aba71" />
+<img width="2560" height="1173" alt="image" src="https://github.com/user-attachments/assets/47a78c42-92c2-4522-a20b-3720135b22ee" />
+<img width="2560" height="1269" alt="9f5a020c-6055-4e51-8a49-99d6c6b2e438" src="https://github.com/user-attachments/assets/87e5287d-54f3-499e-a84d-38f6d183d639" />
+<img width="2560" height="1270" alt="image" src="https://github.com/user-attachments/assets/ce665676-c16c-490a-a88a-d3d692c4f727" />
+<img width="2560" height="1272" alt="image" src="https://github.com/user-attachments/assets/46ff878c-63ad-4b5f-b903-bb82f634a767" />
+<img width="2559" height="1267" alt="image" src="https://github.com/user-attachments/assets/6d87eccb-89c9-437d-ad00-17022c6a2e5d" />
+<img width="2560" height="1271" alt="image" src="https://github.com/user-attachments/assets/f5e407ec-2611-463f-980d-70ba8d358bfa" />
+<img width="2560" height="1269" alt="image" src="https://github.com/user-attachments/assets/65ac8b19-394f-456c-9021-4ee32e0ad060" />
+<img width="2560" height="1272" alt="image" src="https://github.com/user-attachments/assets/228ad1e9-4e8e-4377-99e4-21ff4f872414" />
+<img width="2560" height="1266" alt="image" src="https://github.com/user-attachments/assets/750bd305-6200-4a6b-b3b9-765213aa10d0" />
+
+
+
+
+
+
+
+
+
+
+
+---
+
 ## 🌟 Features
 
 ### 📊 Dashboard
