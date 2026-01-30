@@ -150,7 +150,6 @@ npm run dev
 ## ✨ Notes
 
 * This is a full-stack academic project for portfolio/demo purposes
-* The AI Assistant logic is **mocked** due to HuggingFace API limitations
 * JWT secrets and DB credentials should be stored in `.env` or secure config
 
 ---
