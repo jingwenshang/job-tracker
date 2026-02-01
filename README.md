@@ -11,7 +11,7 @@ https://job-tracker-bice-one.vercel.app
 
 
 
-This project uses Render’s free tier to host the backend. As a result, the first request to the backend after a period of inactivity may experience **a cold start delay**.
+This project uses Render’s free tier to host the backend. As a result, the **first request to the backen**d after a period of inactivity may experience **a cold start delay**.
 
 💡 For example, when registering a new account, it may take about 60-90 seconds for the page to respond or redirect, especially if the backend has been idle.
 
@@ -19,6 +19,14 @@ This is expected behavior for serverless platforms with automatic sleep/wake cyc
 
 If you encounter **a long wait after clicking register**, just give it a moment. The service is spinning up in the background.
 
+
+**⚠️ Note on AI Features and Model Access**
+
+This project includes AI features (such as summarization or job suggestions), **but the deployed version does not connect to any real AI model or API key** — to avoid usage-based billing from model providers.
+
+💡 To use AI features, users are encouraged to **plug in their own model endpoints and access tokens**, depending on the provider of their choice (e.g., Hugging Face, OpenAI, etc.)
+
+This makes the project **fully customizable**, while keeping the deployed version cost-free.
 
 
 ---
