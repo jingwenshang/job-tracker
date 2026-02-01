@@ -3,7 +3,16 @@
 A full-stack job application tracker to help users manage, analyze, and organize their job hunt efficiently. Built with **Spring Boot (Java)** for the backend and **React (Vite + Tailwind)** for the frontend.
 
 ---
+## 👀 Deployed App
 
+
+
+https://job-tracker-bice-one.vercel.app
+
+
+
+
+---
 ## 📷 Screenshoot
 
 <img width="2560" height="1223" alt="image" src="https://github.com/user-attachments/assets/93dacbdb-af6c-4a08-9cdb-361d598aba71" />
