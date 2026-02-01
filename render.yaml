@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: job-tracker-backend
+    env: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 8080
