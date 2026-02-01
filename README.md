@@ -11,6 +11,15 @@ https://job-tracker-bice-one.vercel.app
 
 
 
+This project uses Render’s free tier to host the backend. As a result, the first request to the backend after a period of inactivity may experience **a cold start delay**.
+
+💡 For example, when registering a new account, it may take about 60-90 seconds for the page to respond or redirect, especially if the backend has been idle.
+
+This is expected behavior for serverless platforms with automatic sleep/wake cycles on free plans. Once the backend has "woken up," subsequent requests will be fast and responsive.
+
+If you encounter **a long wait after clicking register**, just give it a moment. The service is spinning up in the background.
+
+
 
 ---
 ## 📷 Screenshoot
